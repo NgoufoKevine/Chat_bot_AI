@@ -4,7 +4,7 @@
 This project implements a **conversational chatbot** capable of offering **airline tickets for a travel agency**.  
 (July 2025).  
 
-The chatbot leverages **Large Language Models (LLMs)** and integrates with **Meta’s WhatsApp Business API** to enable natural and interactive communication with users.  
+The chatbot leverages **Large Language Models (LLMs)** , MCP Server and integrates with **Meta’s WhatsApp Business API** to enable natural and interactive communication with users.  
 
 ---
 
