@@ -20,7 +20,7 @@ The chatbot leverages **Large Language Models (LLMs)** , MCP Server and integrat
 ## 🛠️ Tech Stack  
 - **Language Models**: LLMs for natural language understanding.  
 - **Backend**: Python (Flask/FastAPI).  
-- **Database**: SQLite / PostgreSQL for user session management.  
+- **Database**: SQLite / MongoDB for user session management.  
 - **API Integration**: Meta WhatsApp Business API for communication.  
 - **Deployment**: Docker & Ngrok for testing, cloud deployment planned.  
 
