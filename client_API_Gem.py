@@ -42,10 +42,7 @@ with open("template.txt", "r", encoding="utf-8") as f:
 template = template.format(
     current_date=datetime.now().strftime("%B %d, %Y (%A)")
 )
-# template.replace(
-#                     "{current_date}", 
-#                     datetime.now().strftime('%B %d, %Y (%A)')
-#                 )
+
 
 def get_session_history(session_id: str):
     if session_id not in memory_store:
