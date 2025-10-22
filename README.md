@@ -53,10 +53,17 @@ META_ACCESS_TOKEN=your_token_here
 VERIFY_TOKEN=your_webhook_verify_token
 APP_SECRET=your_app_secret
 ```
+5.**connect your ngrok with facebook
+```bash
+ngrok http 8000
+```
 
-5. **Run the server**  
+6. **Run the server**  
 ```bash
 python server.py
+```
+```bash
+python whatsapp_travel_bot_test.py
 ```
 
 ---
@@ -75,10 +82,9 @@ Supervisor requested: **(open for collaboration/mentorship, especially on LLMs &
 ---
 
 ## 📌 Future Work  
-- 🔍 Integration with live airline APIs (Amadeus, Skyscanner).  
 - 🧠 Fine-tuning of LLM for travel-specific intents.  
-- 🌍 Multi-language support (English, French).  
-- 📊 Evaluation with real user interactions.  
+- 🌍 Multi-language support (Ngomala, Yiembo'o, hausa).  
+
 
 ---
 
@@ -86,4 +92,4 @@ Supervisor requested: **(open for collaboration/mentorship, especially on LLMs &
 **Kevine Grace**  
 - MSc Data Science (AIMS, Cameroon)  
 - MSc Physics (Electronics, Electrical Engineering & Automation, University of Dschang)  
-- Passion: AI Agents 🤖, Human–AI Interaction, Data-Driven Systems  
+- Passion: LLMs, AI Agents 🤖, Human–AI Interaction, Data-Driven Systems  
